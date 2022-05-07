@@ -7,6 +7,7 @@ const Home = () => {
 
     var latitude;
     var longitude;
+    var altitude;
     var status = 'NULL';
 
     const submitForm = () => {
@@ -18,8 +19,10 @@ const Home = () => {
             navigator.geolocation.getCurrentPosition((position) => {
                 latitude = position.coords.latitude;
                 longitude = position.coords.longitude;
+                altitude = position.coords.altitude;
                 localStorage.setItem("latitude", latitude);
                 localStorage.setItem("longitude", longitude);
+                localStorage.setItem("altitude", altitude);
             }, () => {
                 status = 'Unable to retrieve location';
             });
@@ -30,6 +33,7 @@ const Home = () => {
         formdata.append("rollno", rollno);
         formdata.append("latitude", localStorage.getItem("latitude"));
         formdata.append("longitude", localStorage.getItem("longitude"));
+        formdata.append("altitude", localStorage.getItem("altitude"));
         formdata.append("image", localStorage.getItem("image"));
 
         var requestOptions = {
@@ -42,7 +46,7 @@ const Home = () => {
         .then(response => response.text())
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
-        localStorage.clear();
+        //localStorage.clear();
     }
 
     return (
