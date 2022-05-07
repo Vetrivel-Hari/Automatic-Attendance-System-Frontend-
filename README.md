@@ -10,5 +10,28 @@ NOTE : Two repositories are used for the project. One for the frontend and anoth
 FRONTEND : https://github.com/Vetrivel-Hari/Automatic-Attendance-System-Frontend-.git <br>
 BACKEND : https://github.com/Vetrivel-Hari/Automatic-Attendance-System-Backend-.git <br>
 
+## SOLUTION PROPOSED
+The objective of the solution is to reduce proxying, reduce time and effort taken to record the attendance.
+The above mentioned objective is achieved by :
+<ul>
+  <li>Verifying and authenticating the student identity</li>
+  <li>Veryfing the current location of the student</li>
+</ul>
+<b> Verification and authentication of student identity </b> is achieved using the <b> facial recognition </b> of the student along with
+their roll number. <br>
+<b> Student's current location </b> is verified by collecting their current <b> latitude </b> and <b> longitude </b> coordinates. <br>
+
 ## FRONTEND
-This repo demonstrates the working of a React application where user can click pictures using their webcam. The main library used is React-webcam which simplies the process of capturing front face images of users, along with roll number and timestamp is sent to the server.
+
+### WORKING
+This repo contains the react application that handles the working of frontend in the automated attendance system. Users need to enter
+their roll numbers and capture a picture. These details along with location and timestamp is sent to the backend. The details of the
+location is fetched using the geolocation api available in react.
+
+### APIs USED
+<ul>
+  <li>React - Geolocation</li>
+  <li>React - Webcam</li>
+</ul>
+
+### TOOLS USE
