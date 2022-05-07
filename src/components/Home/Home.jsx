@@ -20,6 +20,7 @@ const Home = () => {
                 latitude = position.coords.latitude;
                 longitude = position.coords.longitude;
                 altitude = position.coords.altitude;
+                console.log(altitude);
                 localStorage.setItem("latitude", latitude);
                 localStorage.setItem("longitude", longitude);
                 localStorage.setItem("altitude", altitude);
