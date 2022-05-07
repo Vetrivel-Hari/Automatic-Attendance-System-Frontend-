@@ -21,6 +21,9 @@ The above mentioned objective is achieved by :
 their roll number. <br>
 <b> Student's current location </b> is verified by collecting their current <b> latitude </b> and <b> longitude </b> coordinates. <br>
 
+## DEMO VIDEO
+DRIVE LINK : https://drive.google.com/file/d/1rwdYpvpI4OtBLmW_PB0r7qA40F4DTQZb/view?usp=drivesdk
+
 ## FRONTEND
 
 ### WORKING
@@ -40,7 +43,7 @@ location is fetched using the geolocation api available in react.
 </ul>
 
 ### DEPLOYMENT - VERCEL
-Hosted Link : https://aas-vetrivel-hari.vercel.app/ <br>
+HOSTED LINK : https://aas-vetrivel-hari.vercel.app/ <br>
 NOTE : Only few roll numbers along with their respective images are stored in the databse for development purposes. For testing use the roll numbers 20PC16, 20PC22 and 20PC37, but still it requires facial recognition for attendance.
 
 ### FUTURE UPDATES
