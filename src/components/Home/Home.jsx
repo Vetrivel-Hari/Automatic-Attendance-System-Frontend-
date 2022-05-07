@@ -46,7 +46,7 @@ const Home = () => {
         .then(response => response.json())
         .then(result => alert(result.message))
         .catch(error => console.log('error', error));
-        //localStorage.clear();
+        localStorage.clear();
     }
 
     return (
