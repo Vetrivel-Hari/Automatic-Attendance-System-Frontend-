@@ -1,9 +1,9 @@
 # AUTOMATED ATTENDANCE SYSTEM - TEAM --> INCOGNITO
 
-## BY :
-## 20PC16 - HARISH NARAYAN B
-## 20PC22 - NAVIN KRISHNA T
-## 20PC37 - VETRIVEL M D
+### BY :
+### 20PC16 - HARISH NARAYAN B
+### 20PC22 - NAVIN KRISHNA T
+### 20PC37 - VETRIVEL M D
 
 
 Two repositories are used for the project. One for the frontend and another for the backend. Their links are given below.
