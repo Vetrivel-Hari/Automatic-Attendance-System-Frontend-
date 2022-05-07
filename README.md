@@ -34,4 +34,13 @@ location is fetched using the geolocation api available in react.
   <li>React - Webcam</li>
 </ul>
 
-### TOOLS USE
+### TOOLS USED
+<ul>
+  <li>ReactJS</li>
+</ul>
+
+### DEPLOYMENT - VERCEL
+Hosted Link : https://aas-vetrivel-hari.vercel.app/
+
+### FUTURE UPDATES
+Dedicated web app for faculty, so that any classroom or attendance changes can be recorded manually.
