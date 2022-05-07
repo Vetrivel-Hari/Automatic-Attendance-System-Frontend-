@@ -19,7 +19,7 @@ const Home = () => {
             navigator.geolocation.getCurrentPosition((position) => {
                 latitude = position.coords.latitude;
                 longitude = position.coords.longitude;
-                altitude = position.coords.altitude;
+                altitude = position.coords.altitudeAccuracy;
                 console.log(altitude);
                 localStorage.setItem("latitude", latitude);
                 localStorage.setItem("longitude", longitude);
