@@ -45,8 +45,8 @@ const Home = () => {
         fetch("https://automatic-attendance-system-3.herokuapp.com/api/attendance", requestOptions)
         .then(response => response.text())
         .then(result => {
-            console.log(result);
-            alert(result.message);
+            console.log(result.message);
+            alert(result);
         })
         .catch(error => console.log('error', error));
         //localStorage.clear();
