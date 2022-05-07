@@ -43,7 +43,7 @@ const Home = () => {
         };
 
         fetch("https://automatic-attendance-system-3.herokuapp.com/api/attendance", requestOptions)
-        .then(response => response.text())
+        .then(response => response.json())
         .then(result => {
             console.log(result.message);
             alert(result);
